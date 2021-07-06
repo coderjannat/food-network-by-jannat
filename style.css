@@ -4,7 +4,11 @@ body{
 }
 
 h1 span{
-    color: orange;
+    color: #5134b5;
+}
+h5 span{
+    color: #5134b5;
+    font-weight: bold;
 }
 h1{
     font-style: normal;
@@ -13,22 +17,23 @@ h1{
     line-height: 125%;
     letter-spacing: -0.01em;
     color: #575757;
-    margin-top: 25%;
+    margin-top: 20%;
     
 
 }
 p{
 color: #828282;
+
 }
 .anchor-button{
     text-decoration: none;
-    background: linear-gradient(45deg, lightsalmon, tomato);
+    background: linear-gradient( #8E2DE2, #4A00E0);
     padding: 10px 40px;
    
     border-radius: 100px;
     color: white;
     font-weight: 700;
-    box-shadow: 0px 2px 30px 0px #FC8F4980;
+    box-shadow: 0px 2px 30px 0px #ff6584;
     
 
 }
@@ -36,7 +41,7 @@ color: #828282;
     display: flex;
 }
 .half-width img{
-    width: 100%;
+    width: 120%;
 }
 .half-width{
     width:40%;
@@ -49,13 +54,14 @@ section{
     padding-bottom: 120px;
 }
 .half-width .image{
-    width: 60%;
-    margin-top: 85px;
-    margin-left: 80px;
+    width: 100%;
+   
 }
 .about{
-    background-image: url("images/shapes/7.png");
+    background-image: url("images/shapes/Image.png");
     background-repeat: no-repeat;
+    width: 100%;
+    
     
 }
 .special-item .special-content h2{
@@ -203,8 +209,9 @@ section .special-item{
 .contact .right form .button button{
     height: 100%;
     width: 100%;
-    border: 2px solid crimson;
-    background: crimson;
+    border: 2px solid #ff6584;
+    background: #ff6584;
+    box-shadow: 0px 2px 30px 0px #4A00E0;
     color: #ffF;
     font-size: 20px;
     font-weight: 500;
@@ -213,6 +220,9 @@ section .special-item{
     transition: all 0.3s ease;
 }
 
+  .stat{
+      padding-bottom: 1px;
+  }
 footer{
     background-color: black;
     margin-top: 10px;
@@ -223,6 +233,8 @@ footer{
 footer h5 {
     text-align: center;
     color: white;
+    letter-spacing: 0.3rem;
+    
 }
 footer p{
     text-align: center;
